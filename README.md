@@ -3,6 +3,8 @@ Relembrar:
 - ss -nltp
 - ip -br -c a
 
+--------------------------------------------
+
 SSH:
 - apt install openssh-server ou apt-get install…
 - service ssh status | start | stop
@@ -31,6 +33,7 @@ SSH:
 - ClientAtiveInterval 300 -> Desconecta sessões inativas;
 - ClienteAliveCountMax 0 -> Desconecta sessões inativas;
 
+----------------------------------
 
 - VULNERABILIDADES GET X POST:
 - sudo apt update
