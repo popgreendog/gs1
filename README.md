@@ -1,23 +1,23 @@
 Relembrar:
-nano /etc/network/interfaces
-ss -nltp
-ip -br -c a
+- nano /etc/network/interfaces
+- ss -nltp
+- ip -br -c a
 
 SSH:
-apt install openssh-server ou apt-get install…
-service ssh status | start | stop
-no cliente: ssh user@[IP]
-scp file.txt user@... : /home/user/…  (copia arquivos do cliente para o server)
+- apt install openssh-server ou apt-get install…
+- service ssh status | start | stop
+- no cliente: ssh user@[IP]
+- scp file.txt user@... : /home/user/…  (copia arquivos do cliente para o server)
 
 
-ssh-keygen -t rsa
-Chave fica salva em ~/.ssh
-ssh-copy-id user@...
-No server a chave ssh fica em .ssh, e podemos ver elas no arquivo “authorized keys”
+- ssh-keygen -t rsa
+- Chave fica salva em ~/.ssh
+- ssh-copy-id user@...
+- No server a chave ssh fica em .ssh, e podemos ver elas no arquivo “authorized keys”
 
 
-chmod -v 600 authorized keys
-Apenas L e E para chaves autorizadas
+- chmod -v 600 authorized keys
+-- Apenas L e E para chaves autorizadas
 
 
 + Segurança no SSH:
