@@ -32,7 +32,7 @@ SSH:
 - ClienteAliveCountMax 0 -> Desconecta sessões inativas;
 
 
-- Vulnerabilidade em GET x POST:
+- VULNERABILIDADES GET X POST:
 - sudo apt update
 - sudo apt install php7.4 libapache-mod-php7.4
 - controlado por systemctl
