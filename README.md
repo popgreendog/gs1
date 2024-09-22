@@ -31,6 +31,7 @@ SSH:
 - ClientAtiveInterval 300 -> Desconecta sessões inativas;
 - ClienteAliveCountMax 0 -> Desconecta sessões inativas;
 
+
 - Vulnerabilidade em GET x POST:
 - sudo apt update
 - sudo apt install php7.4 libapache-mod-php7.4
